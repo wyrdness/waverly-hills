@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-02-13",
+    "repository": "https://github.com/wyrdness/waverly-hills",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+  "phenomenon": {
+    "id": "waverly-hills",
+    "name": "Waverly Hills Sanatorium: America's Most Haunted Hospital",
+    "aliases": [],
+    "category": "HAUNTED_LOCATION",
+    "subcategory": "Unknown",
+    "tags": [
+      "folklore",
+      "mythology"
+    ],
+    "status": "documented",
+    "description": {
+      "summary": "Waverly Hills Sanatorium stands as one of the most famous haunted locations in the United States and possibly the world.",
+      "full": "Waverly Hills Sanatorium stands as one of the most famous haunted locations in the United States and possibly the world. Originally opened in 1910 as a two-story wooden hospital for tuberculosis treatment, and expanded in 1926 into a massive Gothic-style brick building, Waverly Hills became synonymous with the devastating tuberculosis epidemic that claimed millions of lives globally during the early 20th century. Over its operational lifetime from 1910 to 1961 as a tuberculosis hospital (and 1962-1982 as a geriatric facility called Woodhaven Medical Services), thousands of patients died within its walls from TB and related complications. The hospital's reputation for paranormal activity is extensive and well-documented, with reports from patients, staff, urban explorers, paranormal investigators, and countless visitors over decades. The phenomena reported include full-bodied apparitions, shadow figures, disembodied voices, physical contact, phantom smells, electronic voice phenomena, equipment malfunctions, and psychological effects ranging from overwhelming sadness to unexplained terror. Waverly Hills has been featured on numerous television programs, investigated by hundreds of paranormal research teams, and visited by tens of thousands seeking evidence of the afterlife. Beyond its paranormal reputation, Waverly Hills represents a significant piece of medical history, documenting the devastating impact of tuberculosis, the evolution of treatment methods, the dedication of medical professionals, and the courage of patients facing a disease with no cure for much of the facility's operational period. The building itself, with its Gothic Revival architecture, serves as a monument to an era of medical history when infectious disease sanitariums dotted the landscape of America."
+    },
+    "etymology": {
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
+    }
+  },
+  "classification": {
+    "taxonomy": {
+      "category": "HAUNTED_LOCATION",
+      "type": "Unknown",
+      "subtype": "Unknown",
+      "variant": "Unknown"
+    },
+    "related_phenomena": []
+  },
+  "characteristics": {
+    "physical": {
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
+    },
+    "abilities": [],
+    "behavior": {
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
+    }
+  },
+  "distribution": {
+    "range": {
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
+    },
+    "hotspots": [],
+    "temporal": {
+      "first_recorded": {
+        "date": "Unknown",
+        "circa": true,
+        "source": "Traditional folklore"
+      }
+    }
+  },
+  "history": {
+    "origins": {
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
+    },
+    "timeline": []
+  },
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
+  "cultural": {
+    "folklore": {
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
+    },
+    "popular_culture": {
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
+    }
+  },
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
+  },
+  "sources": []
+}
