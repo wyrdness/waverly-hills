@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/waverly-hills",
     "maintainers": [
       {
@@ -16,72 +16,131 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "waverly-hills",
-    "name": "Waverly Hills Sanatorium: America's Most Haunted Hospital",
-    "aliases": [],
-    "category": "HAUNTED_LOCATION",
-    "subcategory": "Unknown",
-    "tags": [
-      "folklore",
-      "mythology"
+    "name": "Waverly Hills Sanatorium",
+    "aliases": [
+      { "name": "Waverly Hills Tuberculosis Hospital", "region": "Louisville, Kentucky" },
+      { "name": "Woodhaven Geriatric Center", "region": "Louisville, Kentucky", "meaning": "Name from 1962–1980 geriatric phase" }
     ],
-    "status": "documented",
+    "category": "LOCATION",
+    "subcategory": "Reportedly haunted former tuberculosis sanatorium",
+    "tags": [
+      "haunted-location",
+      "tuberculosis",
+      "kentucky",
+      "louisville",
+      "twentieth-century",
+      "abandoned-hospital",
+      "ghost",
+      "north-america"
+    ],
+    "status": "active",
     "description": {
-      "summary": "Waverly Hills Sanatorium stands as one of the most famous haunted locations in the United States and possibly the world.",
-      "full": "Waverly Hills Sanatorium stands as one of the most famous haunted locations in the United States and possibly the world. Originally opened in 1910 as a two-story wooden hospital for tuberculosis treatment, and expanded in 1926 into a massive Gothic-style brick building, Waverly Hills became synonymous with the devastating tuberculosis epidemic that claimed millions of lives globally during the early 20th century. Over its operational lifetime from 1910 to 1961 as a tuberculosis hospital (and 1962-1982 as a geriatric facility called Woodhaven Medical Services), thousands of patients died within its walls from TB and related complications. The hospital's reputation for paranormal activity is extensive and well-documented, with reports from patients, staff, urban explorers, paranormal investigators, and countless visitors over decades. The phenomena reported include full-bodied apparitions, shadow figures, disembodied voices, physical contact, phantom smells, electronic voice phenomena, equipment malfunctions, and psychological effects ranging from overwhelming sadness to unexplained terror. Waverly Hills has been featured on numerous television programs, investigated by hundreds of paranormal research teams, and visited by tens of thousands seeking evidence of the afterlife. Beyond its paranormal reputation, Waverly Hills represents a significant piece of medical history, documenting the devastating impact of tuberculosis, the evolution of treatment methods, the dedication of medical professionals, and the courage of patients facing a disease with no cure for much of the facility's operational period. The building itself, with its Gothic Revival architecture, serves as a monument to an era of medical history when infectious disease sanitariums dotted the landscape of America."
+      "summary": "A former tuberculosis sanatorium in Louisville, Kentucky (opened 1910, expanded 1926, closed 1961) widely reputed to be haunted; among the most heavily investigated 'haunted hospital' locations in the United States.",
+      "full": "Waverly Hills Sanatorium is a former tuberculosis hospital in the Waverly Hills neighborhood of Louisville, Kentucky. The original two-story wooden facility opened in 1910 and was replaced by a much larger five-story Gothic Revival brick building that opened on October 17, 1926. Following the introduction of the antibiotic streptomycin in 1943 and improvements in TB treatment, the sanatorium closed in June 1961; the building reopened the next year as the Woodhaven Geriatric Center, which the Commonwealth of Kentucky shut down in 1980/1982. Since being purchased by Tina and Charlie Mattingly in 2001, the site has been preserved as a paranormal-tourism attraction and a Halloween haunted-attraction venue, with proceeds going toward restoration. Waverly Hills was added to the U.S. National Register of Historic Places on July 12, 1983. Its reputation as a haunted location is sustained by reports of full-bodied apparitions, shadow figures, disembodied voices, and physical contact, and by appearances on television programmes including Ghost Hunters and Ghost Adventures and in the 2005 horror film Death Tunnel. The building includes a service tunnel — the so-called 'body chute' or 'death tunnel' — that connected the heating plant to the main building and is the focus of much of the site's modern legend, although mainstream historical accounts describe it as a service and supply tunnel that may also have been used to discreetly remove the bodies of deceased patients."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Named for the Waverly Hills neighborhood of Louisville; the area was reportedly named for Sir Walter Scott's Waverley novels by an early-19th-century schoolteacher, Major Thomas H. Hays.",
+      "meaning": "Place-name derived from the early-19th-century literary Waverley association.",
+      "first_use": "The sanatorium opened under the name Waverly Hills in 1910."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "HAUNTED_LOCATION",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "LOCATION",
+      "type": "Reportedly haunted location",
+      "subtype": "Former tuberculosis hospital",
+      "variant": "20th-century American institutional building"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "trans-allegheny-lunatic-asylum", "name": "Trans-Allegheny Lunatic Asylum", "relationship": "similar", "description": "Comparable U.S. former-institutional haunted-tourism site (West Virginia)" },
+      { "id": "pennhurst-asylum", "name": "Pennhurst State School and Hospital", "relationship": "similar", "description": "Comparable Pennsylvania institutional ghost-tourism site" },
+      { "id": "eastern-state-penitentiary", "name": "Eastern State Penitentiary", "relationship": "similar", "description": "Comparable U.S. heritage / ghost-tourism site" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Five-story Gothic Revival brick main building", "description": "Opened October 17, 1926 to replace the 1910 wooden facility; capable of housing more than 400 TB patients", "frequency": "always" },
+        { "feature": "'Body chute' / 'death tunnel'", "description": "A service tunnel running roughly 500 ft from the main building to the bottom of the hill, originally built to carry steam, supplies, and (according to local tradition) the bodies of deceased patients", "frequency": "always" },
+        { "feature": "Solarium and open-air porches", "description": "Wide screened porches characteristic of pre-antibiotic TB sanatoriums, intended to expose patients to fresh air and sunlight", "frequency": "always" }
+      ],
+      "morphology": "A large early-20th-century institutional hospital complex on a wooded hilltop, partially restored and partially in arrested decay."
     },
     "abilities": [],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "variable",
+      "social_structure": "unknown",
+      "habitat_preference": ["abandoned hospital corridors", "the so-called 'body chute' tunnel", "patient wards on the fourth and fifth floors"],
+      "diet": "Not applicable.",
+      "patterns": [
+        "Reports cluster on the fourth and fifth floors and in the body-chute tunnel",
+        "Reports include named figures such as 'Timmy' (a child apparition) and a 'creeper' or 'shadow figure'",
+        "Activity is reported by both staff/owners and visiting investigators"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "A single fixed location: the Waverly Hills Sanatorium complex on Paralee Drive, Louisville, Kentucky.",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": [
+        "Louisville, Kentucky",
+        "Jefferson County, Kentucky"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Waverly Hills Sanatorium main building",
+        "location": {
+          "description": "4400 Paralee Drive, Louisville, Kentucky 40272",
+          "country": "United States",
+          "region": "Kentucky",
+          "coordinates": { "latitude": 38.1191, "longitude": -85.8419 }
+        },
+        "peak_period": "1926–1961 (TB era); 2001–present (paranormal-tourism era)",
+        "notes": "The main 1926 Gothic Revival building is the focus of nearly all reported phenomena and investigations."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1910-01-01",
+        "circa": false,
+        "source": "Original wooden Waverly Hills tuberculosis hospital opened 1910"
+      },
+      "peak_activity_periods": [
+        { "period": "1926–1961", "description": "TB sanatorium era; large patient population and high in-house mortality before antibiotic therapy" },
+        { "period": "2001–present", "description": "Modern paranormal-tourism and investigation era under Mattingly ownership" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Early-20th-century American public health response to the tuberculosis epidemic, particularly the open-air sanatorium movement.",
+      "earliest_accounts": "The original wooden Waverly Hills tuberculosis hospital opened in 1910; the much larger Gothic Revival facility opened on October 17, 1926.",
+      "folklore_connections": "Modern legend of Waverly Hills draws on a wider American tradition of haunted hospitals and asylums (e.g., Trans-Allegheny Lunatic Asylum, Danvers State Hospital)."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1910-07-26", "event": "Original wooden Waverly Hills tuberculosis hospital opens in Louisville, Kentucky", "significance": "Founding of the institution", "source": "Waverly Hills Historical Society / Wikipedia" },
+      { "date": "1926-10-17", "event": "New five-story Gothic Revival brick sanatorium opens", "significance": "Establishes the present main building", "source": "Waverly Hills Historical Society" },
+      { "date": "1943-01-01", "event": "Streptomycin antibiotic introduced for tuberculosis treatment, eventually allowing TB patients to be treated as outpatients", "significance": "Begins the obsolescence of large TB sanatoriums", "source": "Public-health histories of tuberculosis" },
+      { "date": "1961-06-01", "event": "Waverly Hills closes as a tuberculosis sanatorium", "significance": "End of the TB-treatment era", "source": "Waverly Hills Historical Society" },
+      { "date": "1962-01-01", "event": "Building reopens as the Woodhaven Geriatric Center", "significance": "Begins the second institutional phase", "source": "Waverly Hills Historical Society" },
+      { "date": "1980-01-01", "event": "Commonwealth of Kentucky closes the Woodhaven Geriatric Center after allegations of mistreatment of patients", "significance": "End of the building's institutional use", "source": "Wikipedia / Kentucky records" },
+      { "date": "1983-07-12", "event": "Waverly Hills Sanatorium added to the U.S. National Register of Historic Places", "significance": "Federal heritage recognition", "source": "National Register of Historic Places" },
+      { "date": "2001-01-01", "event": "Tina and Charlie Mattingly purchase the property", "significance": "Begin the long-running restoration / paranormal-tourism era", "source": "Waverly Hills Historical Society" }
+    ],
+    "modern_era": "Under the Mattinglys' stewardship, Waverly Hills hosts paranormal investigations, public ghost tours, and a major Halloween haunted-attraction season; television appearances on Ghost Hunters (2006), Ghost Adventures, BuzzFeed Unsolved, and others have made it one of the most-visited haunted-hospital sites in the United States."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +151,131 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "waverly-evidence-nrhp",
+        "type": "heritage listing",
+        "name": "U.S. National Register of Historic Places listing (1983)",
+        "date": "1983-07-12",
+        "description": "Federal heritage listing recognising the historical importance of the Waverly Hills Sanatorium complex.",
+        "status": "verified",
+        "analysis": "Independently confirms the building's history and significance as a TB sanatorium.",
+        "source": "U.S. National Register of Historic Places"
+      },
+      {
+        "id": "waverly-evidence-ghost-hunters",
+        "type": "television investigation",
+        "name": "Ghost Hunters (TAPS) Waverly Hills episode",
+        "date": "2006",
+        "description": "Investigation of Waverly Hills by The Atlantic Paranormal Society for the SyFy series Ghost Hunters.",
+        "status": "disputed",
+        "analysis": "Most-cited televised paranormal investigation of the site; widely treated as entertainment rather than scientific evidence.",
+        "source": "Ghost Hunters (SyFy, 2006)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Residual hauntings from TB-era deaths",
+        "description": "Reported phenomena are interpreted as the residue of large numbers of patient deaths during the TB era, particularly on the fourth and fifth floors.",
+        "proponents": ["Waverly Hills paranormal-tourism community", "Various paranormal investigation teams"],
+        "evidence_cited": ["Reports of apparitions, shadow figures, disembodied voices, and physical contact across multiple decades and groups"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Suggestion, expectation, and pareidolia in a high-suggestion environment",
+        "description": "Skeptics hold that the building's known reputation, dim lighting, ambient infrasound, and visitors' expectations sufficiently account for reported experiences without invoking the paranormal.",
+        "proponents": ["Joe Nickell (CSI)", "Benjamin Radford"],
+        "evidence_cited": ["Pattern of reports clustering with public-tour and television activity", "Lack of independently reproducible paranormal data"]
+      },
+      {
+        "name": "Inflated 'death-toll' figures",
+        "description": "The widely repeated claim that over 60,000 people died at Waverly Hills is rejected by historians and the property's owners as far higher than the actual death toll.",
+        "proponents": ["Local historians", "Waverly Hills Historical Society"],
+        "evidence_cited": ["Capacity and operating-record analysis"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "American haunted-hospital folklore",
+        "Louisville urban legend"
+      ],
+      "stories": [
+        "The 'body chute' / 'death tunnel' as a route for discreetly removing TB victims' bodies",
+        "Apparition stories of 'Timmy', a child ghost said to play with a ball on the third floor",
+        "Reports of a tall 'creeper' shadow figure"
+      ],
+      "beliefs": "Local and online communities widely treat Waverly Hills as one of the most active haunted locations in the United States; mainstream history and skeptical scholarship treat the haunting reputation as cultural rather than evidential."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Charlie & Janie Mattingly, with the Waverly Hills Historical Society — public history materials"
+      ],
+      "film_tv": [
+        "Ghost Hunters (SyFy, 2006 episode)",
+        "Ghost Adventures (Travel Channel, multiple episodes)",
+        "Death Tunnel (2005, horror film inspired by Waverly Hills)",
+        "BuzzFeed Unsolved (2017)"
+      ],
+      "games": [
+        "Project Zomboid (Indie Stone) — fictionalized Knox County region inspired by Louisville"
+      ],
+      "music": [],
+      "other": [
+        "Annual Halloween haunted-attraction season",
+        "Paid public ghost tours"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Tina Mattingly", "affiliation": "Owner, Waverly Hills Sanatorium / Waverly Hills Historical Society", "contribution": "Restoration and public-history programme since 2001", "period": "2001–present" },
+      { "name": "Charlie Mattingly", "affiliation": "Owner, Waverly Hills Sanatorium / Waverly Hills Historical Society", "contribution": "Restoration and public-history programme since 2001", "period": "2001–present" }
+    ],
+    "organizations": [
+      { "name": "Waverly Hills Historical Society", "url": "https://thewaverlyhillssanatorium.com/", "focus": "Owner-led historical and preservation society for the site" }
+    ],
+    "ongoing_studies": "Active paranormal-investigation programmes (visiting groups), restoration work, and historical research; no peer-reviewed paranormal research is conducted at the site."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-waverly-hills",
+      "type": "website",
+      "title": "Waverly Hills Sanatorium",
+      "url": "https://en.wikipedia.org/wiki/Waverly_Hills_Sanatorium",
+      "publication": "Wikipedia",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "waverly-hills-official",
+      "type": "website",
+      "title": "The Waverly Hills Sanatorium (official site)",
+      "url": "https://thewaverlyhillssanatorium.com/",
+      "publication": "Waverly Hills Historical Society",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "nrhp-1983",
+      "type": "archive",
+      "title": "National Register of Historic Places listing — Waverly Hills Sanatorium",
+      "publication": "U.S. National Park Service",
+      "date": "1983-07-12"
+    }
+  ]
 }
